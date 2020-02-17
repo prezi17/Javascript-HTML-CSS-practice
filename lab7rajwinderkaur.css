@@ -1,0 +1,37 @@
+* {
+  box-sizing: border-box;
+  background-color: #ccffff;
+  overflow:auto;
+}
+
+body {
+	text-align:center;
+}
+
+h1
+{
+color:#1A507C;
+}
+
+footer{
+	margin-top:20px;
+	text-align:center;
+	font-size:10px;
+  color:blue;
+}
+  header nav button{
+	  width:18%;
+	  font-size:8px;
+  border-color:darkblue;
+  }
+
+@media screen and (min-width:600px) {
+  [class*="column"] {
+    width:90%;
+  }
+
+  header nav button{
+	width:9%;
+	font-size:1.2vw;
+  }
+}
