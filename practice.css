@@ -1,0 +1,34 @@
+* {box-sizing: border-box;
+overflow-x: auto;
+  border-color: darkblue;
+}
+h1 {
+  text-align: center;
+  color : darkblue;
+  background-color: #D0DAD7;
+}
+body {
+background: lightblue;
+}
+.column{
+  border-style: solid;
+  border-color: blue;
+  width: 30%;
+  display:inline-block;
+  height:60vh;
+  }
+button {
+  background-color: black;
+  color: white;
+  width: 10%;
+  height:10%;
+}
+img {
+  width: 100%;
+  height: auto;
+  padding: 2px;
+  display: none;
+}
+#end1 {
+  text-align: center;
+}
